@@ -1,0 +1,85 @@
+.grid-container-agenda {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  background-color: #FFF;
+  padding: 2px;
+}
+.grid-item-agenda {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 2px;
+  font-size: 16px;
+  text-align: center;
+  font-weight:bold;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto;
+  background-color: #2196F3;
+  padding: 2px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 2px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.boton {
+  cursor: pointer;
+}
+
+img{
+	height:50px;
+}
+
+
+.Nav {
+  margin: 0;
+  padding: 0;
+  height: 50px;
+  background-image: linear-gradient(to right, var(--color-segundario) -50%, var(--color-principal) 50%, var(--color-segundario) 150%);
+  width: 100%;
+}
+
+.Nav-nav {
+  margin-bottom: 0px;
+}
+
+.nav-div-content{
+  display: grid;
+  justify-content: center;
+}
+
+.nav-div-content-ul {
+  list-style: none;
+  margin: 5px;
+  padding: 0;
+}
+
+.ul-nav__item {
+  display: inline-block;
+  border-radius: 2px;
+  padding: 5px;
+}
+
+.ul-nav__item a {
+  padding: 2px 5px;
+  font-size: 20px;
+  color: #000;
+  cursor: pointer;
+  text-decoration: none;
+  border: 2px solid #000;
+  border-radius: 10%;
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+
+.ul-nav__item a:hover{
+  background-color: #000;
+  color: #FFF;
+  padding: 5px 20px;
+  transition-property: all;
+  transition-duration: 0.5s;
+}
